@@ -22,8 +22,8 @@
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {728, 446}}";
-			sepNavSelRange = "{203, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {728, 440}}";
+			sepNavSelRange = "{579, 0}";
 			sepNavVisRange = "{0, 586}";
 		};
 	};
@@ -38,6 +38,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 79C3C5A0131EECD100C8B96D /* Nothing */;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Nothing */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Nothing */,
@@ -69,8 +70,30 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320799440;
-			PBXWorkspaceStateSaveDate = 320799440;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					510,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320801565;
+			PBXWorkspaceStateSaveDate = 320801565;
 		};
 		perUserProjectItems = {
 			79C3C6B2131EFF5000C8B96D = 79C3C6B2131EFF5000C8B96D /* PBXTextBookmark */;
@@ -79,7 +102,12 @@
 			79C3C6B5131EFF5000C8B96D = 79C3C6B5131EFF5000C8B96D /* PBXTextBookmark */;
 			79C3C6B6131EFF5000C8B96D = 79C3C6B6131EFF5000C8B96D /* PBXTextBookmark */;
 			79C3C6B7131EFF5000C8B96D = 79C3C6B7131EFF5000C8B96D /* PBXTextBookmark */;
-			79C3C719131F02E200C8B96D /* PBXTextBookmark */ = 79C3C719131F02E200C8B96D /* PBXTextBookmark */;
+			79C3C719131F02E200C8B96D = 79C3C719131F02E200C8B96D /* PBXTextBookmark */;
+			79F52E16131F0B4800038ADD /* PBXTextBookmark */ = 79F52E16131F0B4800038ADD /* PBXTextBookmark */;
+			79F52E17131F0B4800038ADD /* PBXBookmark */ = 79F52E17131F0B4800038ADD /* PBXBookmark */;
+			79F52E18131F0B4800038ADD /* PlistBookmark */ = 79F52E18131F0B4800038ADD /* PlistBookmark */;
+			79F52E2C131F0B8F00038ADD /* PlistBookmark */ = 79F52E2C131F0B8F00038ADD /* PlistBookmark */;
+			79F52E38131F0BCB00038ADD /* PlistBookmark */ = 79F52E38131F0BCB00038ADD /* PlistBookmark */;
 		};
 		sourceControlManager = 79C3C5B1131EED1700C8B96D /* Source Control */;
 		userBuildSettings = {
@@ -87,9 +115,9 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {728, 446}}";
-			sepNavSelRange = "{191, 0}";
-			sepNavVisRange = "{0, 396}";
+			sepNavIntBoundsRect = "{{0, 0}, {728, 440}}";
+			sepNavSelRange = "{327, 0}";
+			sepNavVisRange = "{0, 429}";
 		};
 	};
 	79C3C5A0131EECD100C8B96D /* Nothing */ = {
@@ -193,7 +221,7 @@
 		rLen = 0;
 		rLoc = 586;
 		rType = 0;
-		vrLen = 667;
+		vrLen = 586;
 		vrLoc = 0;
 	};
 	79C3C719131F02E200C8B96D /* PBXTextBookmark */ = {
@@ -203,7 +231,54 @@
 		rLen = 0;
 		rLoc = 579;
 		rType = 0;
-		vrLen = 666;
+		vrLen = 586;
 		vrLoc = 0;
+	};
+	79F52E16131F0B4800038ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 20";
+		rLen = 0;
+		rLoc = 579;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 0;
+	};
+	79F52E17131F0B4800038ADD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Nothing-Info.plist */;
+	};
+	79F52E18131F0B4800038ADD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Nothing-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jchrisa/code/mobile/Nothing/Nothing-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	79F52E2C131F0B8F00038ADD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Nothing-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jchrisa/code/mobile/Nothing/Nothing-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	79F52E38131F0BCB00038ADD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Nothing-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jchrisa/code/mobile/Nothing/Nothing-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 }

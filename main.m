@@ -12,7 +12,8 @@
 int main(int argc, char *argv[]) {
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-	//[Couchbase startCouch];
+	[[Couchbase alloc] startCouch];
+	NSLog(@"Started the Couch");
     int retVal = UIApplicationMain(argc, argv, nil, nil);
     [pool release];
     return retVal;
